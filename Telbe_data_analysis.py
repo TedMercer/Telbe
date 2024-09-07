@@ -31,6 +31,12 @@ THINGS I NEED TO DO - As of September 7th, 2024:
 *   Document, examples, README.md
 '''
 
+## imports:
+import numpy as np
+import pandas as pd
+from scipy.optimize import curve_fit
+from scipy.interpolate import interp1d
+
 class Telbe:
     def __init__(self):
         self.meta = {}
